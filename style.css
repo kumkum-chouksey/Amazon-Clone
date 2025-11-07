@@ -218,3 +218,37 @@ margin-bottom: 60px;
 .hero-section a{ 
   color: #007185;
 }
+
+/** SHOP SECTION **/
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e2e7e6;
+}
+.box{
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  margin-top: 10px;
+}
+.box-content{
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.box-content h2{
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.box-content p{
+  margin-top: 6px;
+  color: #41d9f4;
+}
+.box-image{
+  height: 250px;
+  padding: 25px 0px 18px 0px;
+  margin-top: 8px;
+  margin-bottom: 13px;
+  background-size: cover;
+}
