@@ -11,6 +11,7 @@
   background-color: #0F1111;
   color: white;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
 }
 .border {
@@ -24,7 +25,7 @@
 
 .nav-logo {
   height: 50px;
-  width: 110px;
+  width: 120px;
 }
 .logo {
   background-image: url("amazon_logo.png");
@@ -39,7 +40,7 @@
 .nav-address {
   cursor: pointer;
   height: 50px;
-  width:100px;
+  width:110px;
 }
 .nav-add{
   display: flex;
@@ -60,6 +61,106 @@
 .search-bar {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   height: 45px;
-  width: 650px;
+  width: 660px;
+  border-radius: 3px;
+}
+.search-bar:hover{
+  border:2px solid rgb(237, 179, 32);
+  border-top: 4px solid rgb(237, 179, 32);
+  border-bottom: 4px solid rgb(237, 179, 32);
+}
+.search-option{
+  height: 52px;
+  width: 60px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #f3f3f3;
+  align-items: center;
+  padding-left: 5px;
+  font-size: 18px;
+  border: none;
+  margin-right: -1px;
+  cursor: pointer;
+}
+.search-box{
+  height: 50px;
+  width: 605px;
+  padding-left: 15px;
+  font-size: 23px;
+  margin-left: -1px;
+  border: none;
+}
+.search-logo{
+  height: 52px;
+  width: 63px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(237, 179, 32);
+  color: #0F1111;
+  cursor: pointer;
+  border: none;
+}
+/**4TH COUNTRY BOX **/
+.country{
+  height: 60px;
+  width: 110px;
+ display: flex;
+ align-items: center;
+ justify-content: left;
+ cursor: pointer;
+}
+.flag{
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 3.5px;
+}
+.country-name{
+  background-color: #0F1111;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+/** 5TH SIGNIN BOX AND 6TH RETURNS BOX**/
+.signin-box{
+  height: 60px;
+  width: 140px;
+  cursor: pointer;
+}
+.return-box{
+  height: 60px;
+  width: 110px;
+  cursor: pointer;
+}
+.nav-first{
+  font-size: 0.7rem;
+  margin-left: 6px;
+}
+.nav-second{
+  margin-top: 4px;
+  font-size: 1rem;
+  margin-left: 6px;
+}
+/** 7TH CART BOX **/
+.cart-box{
+  cursor: pointer;
+  height: 60px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-logo{
+  font-size: 1.8rem;
+}
+.cart{
+  font-size: 1rem;
 }
