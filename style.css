@@ -251,4 +251,82 @@ margin-bottom: 60px;
   margin-top: 8px;
   margin-bottom: 13px;
   background-size: cover;
+  cursor: pointer;
+}
+
+/** FOOTER SECTION **/
+.footer{
+  margin-top: 15px;
+}
+
+.footer-panel1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #37475a;
+  color: white;
+  height: 45px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.footer-list{
+  display: flex;
+  height: 370px;
+  width: 100%;
+  justify-content: space-evenly;
+  color: white;
+  background-color: #222f3d;
+}
+.footer-list p{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footer-list a{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #dddddd;
+}
+
+.footer-panel3{
+  background-color: #222f3d;
+  color: white;
+  height: 120px;
+  width: 100%;
+  border-top: 1.7px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo{
+  background-image: url("amazon_logo.png");
+   height: 50px;
+  width: 100px;
+  background-size: cover;
+  cursor: pointer;
+}
+.Author{
+  margin-top: 20px;
+  height: 72px;
+  width: 160px;
+  background-size: cover;
+  cursor: pointer;
+  padding-left: 18px;
+}
+.Author p{
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 7px;
+  margin-top: 5px;
+}
+.Author a{
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0;
 }
